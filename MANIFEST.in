@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include nck_metalko *.css
+recursive-include nck_metalko *.csv
+recursive-include nck_metalko *.html
+recursive-include nck_metalko *.ico
+recursive-include nck_metalko *.js
+recursive-include nck_metalko *.json
+recursive-include nck_metalko *.md
+recursive-include nck_metalko *.png
+recursive-include nck_metalko *.py
+recursive-include nck_metalko *.svg
+recursive-include nck_metalko *.txt
+recursive-exclude nck_metalko *.pyc
